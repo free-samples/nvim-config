@@ -1,0 +1,73 @@
+-- ######### Nord Colorscheme #########
+return {
+	{ "shaunsingh/nord.nvim" },
+	{ "LazyVim/LazyVim", opts = { colorscheme = "nord" } },
+}
+-- ######### Catppuccin Colorscheme #########
+-- return {
+--   {
+--     "catppuccin/nvim",
+--     name = "catppuccin",
+--     priority = 1000, -- Make sure it loads before other plugins
+--     opts = {
+--       flavour = "frappe", -- mocha, frappe,latte,macchiato
+--     },
+--   },
+--
+--   -- Set catppuccin as the default colorscheme
+--   {
+--     "LazyVim/LazyVim",
+--     opts = {
+--       colorscheme = "catppuccin",
+--     },
+--   },
+-- }
+-- ######### Blue Colorscheme #########
+-- return {
+--   -- Set the colorscheme to blue
+--   {
+--     "LazyVim/LazyVim",
+--     opts = {
+--       colorscheme = "blue",
+--     },
+--   },
+-- }
+-- ######### Pablo Colorscheme #########
+-- return {
+--   -- Set the colorscheme to pablo
+--   {
+--     "LazyVim/LazyVim",
+--     opts = {
+--       colorscheme = "torte",
+--     },
+--   },
+-- }
+-- ######### Habamax Colorscheme #########
+-- return {
+--   -- Set the colorscheme to habamax
+--   {
+--     "LazyVim/LazyVim",
+--     opts = {
+--       colorscheme = "habamax",
+--     },
+--   },
+-- }
+-- ######### Tokyonight Colorscheme #########
+-- return {
+--   {
+--     "folke/tokyonight.nvim",
+--     lazy = false,
+--     priority = 1000,
+--     opts = {
+--       style = "moon", -- options: day,moon,night,storm
+--     },
+--   },
+--
+--   -- Set tokyonight as the default colorscheme
+--   {
+--     "LazyVim/LazyVim",
+--     opts = {
+--       colorscheme = "tokyonight",
+--     },
+--   },
+-- }
